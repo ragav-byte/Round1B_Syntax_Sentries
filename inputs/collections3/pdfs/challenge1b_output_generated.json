@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-21T11:52:08.543006"
+  },
+  "extracted_sections": [
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "1/4 cup spinach, chopped",
+      "importance_rank": 1,
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings",
+      "importance_rank": 2,
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Serve immediately.",
+      "importance_rank": 3,
+      "page_number": 16
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "1 cup cooked chicken breast, diced",
+      "importance_rank": 4,
+      "page_number": 6
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "In the same skillet, cook ground lamb or beef, diced onion, and minced garlic until",
+      "importance_rank": 5,
+      "page_number": 12
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• 1/4 cup spinach, chopped • 1/4 cup shredded carrots • 1 tablespoon tahini • 1 tablespoon lemon juice • Salt and pepper to taste Instructions: • In a bowl, combine the mashed chickpeas, spinach, carrots, tahini, and lemon juice. • Season with salt and pepper. • Lay the tortilla flat and spread the mixture evenly. • Roll up the tortilla tightly and slice in half. Turkey and Apple Sandwich Ingredients: • 2 slices whole grain bread • 4 slices turkey breast • 1/2 apple, thinly sliced • 1/4 cup baby spinach • 1 tablespoon mustard or mayo Instructions: • Spread mustard or mayo on one slice of bread. • Layer the turkey, apple slices, and spinach on top.",
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "• Shredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings Instructions: • In a skillet, cook ground beef over medium heat until browned. • Add diced onion and minced garlic, sauté until softened. • Stir in taco seasoning and water, simmer until thickened. • Serve beef mixture in taco shells or tortillas with desired toppings.",
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• Serve immediately. Cottage Cheese and Veggie Bowl Ingredients: • 1 cup cottage cheese • 1/4 cup diced cucumber • 1/4 cup cherry tomatoes, halved • 1/4 cup diced bell pepper • Salt and pepper to taste Instructions: • In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. • Season with salt and pepper. • Serve immediately. Almond Butter and Apple Slices Ingredients: • 1 apple, sliced • 2 tablespoons almond butter Instructions: • Spread almond butter on each apple slice. • Serve immediately.",
+      "page_number": 16
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• 1 cup cooked chicken breast, diced • 1/2 avocado, diced • 1/4 cup cherry tomatoes, halved • 1/4 cup red onion, finely chopped • 2 tablespoons olive oil • 1 tablespoon lemon juice • Salt and pepper to taste Instructions: • In a bowl, combine the chicken, avocado, tomatoes, and red onion. • Drizzle with olive oil and lemon juice. • Season with salt and pepper, then toss to combine. Turkey and Cheese Roll-Ups Ingredients: • 4 slices turkey breast • 4 slices cheese (such as cheddar or Swiss) • 1/2 cup baby spinach • 1/4 cup hummus Instructions: • Lay a slice of turkey flat and spread with hummus. • Place a slice of cheese and a few spinach leaves on top.",
+      "page_number": 6
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "• In the same skillet, cook ground lamb or beef, diced onion, and minced garlic until browned. • Stir in diced tomatoes, red wine, cinnamon, oregano, salt, and pepper. • Simmer for 20 minutes. • In a baking dish, layer eggplant slices and meat sauce. • Pour béchamel sauce over the top and sprinkle with grated Parmesan cheese. • Bake for 30-35 minutes until golden and bubbly. • Serve warm. Jambalaya Ingredients: • 1 pound chicken breast, cubed • 1/2 pound sausage, sliced • 1/2 pound shrimp, peeled and deveined • 1 small onion, diced • 2 cloves garlic, minced • 1 bell pepper, diced • 1 can (14.",
+      "page_number": 12
+    }
+  ]
+}
