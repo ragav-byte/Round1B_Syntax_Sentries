@@ -110,9 +110,34 @@ The output follows this structure:
 
 ## 🐳 Run with Docker (Optional)
 
+Change directory
+
+```bash
+cd MutliPDFExtracter-master
+```
+
+Docker command
 ```bash
 docker build -t pdf-analyzer .
-docker run -v $(pwd):/app pdf-analyzer
+
+docker run `
+  -e PDF_FOLDER=inputs/collections1/pdfs `
+  -e INPUT_JSON=inputs/collections1/challenge1b_input.json `
+  -e OUTPUT_JSON=output/challenge1b_output_generated.json `
+  -v ${PWD}/inputs:/app/inputs `
+  -v ${PWD}/output:/app/output `
+  pdf-analyzer
+```
+To run different pdf collection
+```bash
+
+docker run `
+  -e PDF_FOLDER=inputs/collections2/pdfs `
+  -e INPUT_JSON=inputs/collections2/challenge1b_input.json `
+  -e OUTPUT_JSON=output/challenge1b_output_generated.json `
+  -v ${PWD}/inputs:/app/inputs `
+  -v ${PWD}/output:/app/output `
+  pdf-analyzer
 ```
 
 -----
